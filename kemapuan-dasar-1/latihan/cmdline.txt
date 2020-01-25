@@ -1,0 +1,445 @@
+1. cd 
+
+cd Scrip
+
+C:\WINDOWS\system32> cd Scrip
+PS C:\WINDOWS\system32\Scrip>
+
+2.dir
+
+dir
+
+ C:\WINDOWS\system32\Scrip> dir
+
+
+    Directory: C:\WINDOWS\system32\Scrip
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/25/2020   9:37 AM             33 Skrip.ps1.ps1
+
+3. cls
+
+Membersihkan screen
+
+4.echo
+
+echo "Hello World"
+
+C:\WINDOWS\system32\Scrip> echo "Hello World"
+Hello World
+
+
+5.Copy
+
+C:\WINDOWS\system32\Scrip> Copy-Item .\contoh.txt .\contoh\
+
+6.Move
+
+C:\WINDOWS\system32\Scrip> Move-Item .\contoh.txt .\contoh\
+
+
+7.del
+
+C:\WINDOWS\system32\Scrip> del contoh.txt
+
+8. rmdir
+
+PS C:\WINDOWS\system32\Scrip> rmdir '.\contoh'
+
+9.mkdir
+
+PS C:\WINDOWS\system32\Scrip> mkdir contoh
+
+10. gpudate
+
+PS C:\WINDOWS\system32\Scrip> gpupdate /force
+
+
+11.help
+
+PS C:\WINDOWS\system32\Scrip>  help move
+
+
+12.arp
+
+PS C:\WINDOWS\system32\Scrip> arp /a
+
+Interface: 192.168.56.1 --- 0x3
+  Internet Address      Physical Address      Type
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+
+13.date
+
+PS C:\WINDOWS\system32\Scrip> date
+
+Saturday, January 25, 2020 2:14:51 PM
+
+
+14.exit
+
+
+PS C:\WINDOWS\system32\Scrip> exit
+
+
+15.hostname
+
+PS C:\WINDOWS\system32\Scrip> hostname
+
+
+16.netsh
+
+PS C:\WINDOWS\system32\Scrip> netsh
+
+17.ping
+
+C:\WINDOWS\system32\Scrip> ping www.google.com
+
+Pinging www.google.com [74.125.24.106] with 32 bytes of data:
+Reply from 74.125.24.106: bytes=32 time=27ms TTL=56
+Reply from 74.125.24.106: bytes=32 time=26ms TTL=56
+Reply from 74.125.24.106: bytes=32 time=26ms TTL=56
+Reply from 74.125.24.106: bytes=32 time=26ms TTL=56
+
+Ping statistics for 74.125.24.106:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 26ms, Maximum = 27ms, Average = 26ms
+
+
+18.recover
+
+PS C:\WINDOWS\system32\Scrip> recover contoh.txt
+
+
+19.defrag
+
+defrag C: /U /V
+
+
+20.ipconfig
+
+
+PS C:\WINDOWS\system32> tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      1.032 K
+Registry                       120 Services                   0     44.212 K
+smss.exe                       480 Services                   0        412 K
+csrss.exe                      680 Services                   0      2.160 K
+wininit.exe                    804 Services                   0      1.076 K
+services.exe                   876 Services                   0      6.268 K
+lsass.exe                      940 Services                   0     13.116 K
+svchost.exe                    572 Services                   0        760 K
+WUDFHost.exe                   620 Services                   0      1.724 K
+svchost.exe                    636 Services                   0     45.908 K
+fontdrvhost.exe                628 Services                   0      1.348 K
+svchost.exe                   1072 Services                   0     15.544 K
+svchost.exe                   1140 Services                   0      4.512 K
+svchost.exe                   1292 Services                   0      5.328 K
+svchost.exe                   1312 Services                   0      4.220 K
+svchost.exe                   1340 Services                   0      4.916 K
+svchost.exe                   1456 Services                   0      3.624 K
+svchost.exe                   1480 Services                   0      2.420 K
+svchost.exe                   1604 Services                   0     10.544 K
+svchost.exe                   1668 Services                   0      4.588 K
+svchost.exe                   1712 Services                   0      4.408 K
+svchost.exe                   1764 Services                   0      3.724 K
+svchost.exe                   1852 Services                   0     14.432 K
+SynTPEnhService.exe           1896 Services                   0      2.476 K
+svchost.exe                   1916 Services                   0      4.908 K
+svchost.exe                   1972 Services                   0      9.556 K
+svchost.exe                   1536 Services                   0      6.928 K
+svchost.exe                   2156 Services                   0      5.180 K
+svchost.exe                   2216 Services                   0      5.872 K
+NVDisplay.Container.exe       2240 Services                   0      6.900 K
+svchost.exe                   2284 Services                   0      3.720 K
+svchost.exe                   2340 Services                   0      1.484 K
+svchost.exe                   2348 Services                   0    157.160 K
+svchost.exe                   2356 Services                   0      2.672 K
+svchost.exe                   2432 Services                   0      4.072 K
+igfxCUIService.exe            2456 Services                   0      2.240 K
+svchost.exe                   2528 Services                   0      3.160 K
+Memory Compression            2548 Services                   0  1.795.308 K
+svchost.exe                   2616 Services                   0      4.892 K
+svchost.exe                   2624 Services                   0      5.264 K
+svchost.exe                   2672 Services                   0      2.604 K
+svchost.exe                   2744 Services                   0      2.936 K
+svchost.exe                   2776 Services                   0     29.548 K
+svchost.exe                   3008 Services                   0      4.816 K
+svchost.exe                   3016 Services                   0      2.688 K
+svchost.exe                   2800 Services                   0     14.632 K
+svchost.exe                   3208 Services                   0     10.832 K
+svchost.exe                   3252 Services                   0     15.656 K
+svchost.exe                   3288 Services                   0      6.248 K
+spoolsv.exe                   3368 Services                   0      4.320 K
+svchost.exe                   3464 Services                   0      8.292 K
+svchost.exe                   3624 Services                   0      1.912 K
+IntelCpHDCPSvc.exe            3632 Services                   0      1.816 K
+svchost.exe                   3640 Services                   0        924 K
+svchost.exe                   3648 Services                   0     11.696 K
+EvtEng.exe                    3656 Services                   0      6.360 K
+svchost.exe                   3664 Services                   0     30.240 K
+svchost.exe                   3672 Services                   0     46.476 K
+ibtsiva.exe                   3680 Services                   0      1.960 K
+svchost.exe                   3692 Services                   0      5.804 K
+svchost.exe                   3708 Services                   0      2.012 K
+MsiTrueColorService.exe       3716 Services                   0      1.360 K
+sqlservr.exe                  3784 Services                   0     21.580 K
+MSI_ActiveX_Service.exe       3788 Services                   0      9.672 K
+AGMService.exe                3800 Services                   0      4.256 K
+armsvc.exe                    3840 Services                   0      1.604 K
+PsiService_2.exe              3852 Services                   0      1.276 K
+RegSrvc.exe                   3872 Services                   0      1.988 K
+svchost.exe                   3880 Services                   0        972 K
+sqlwriter.exe                 3932 Services                   0      2.040 K
+svchost.exe                   3972 Services                   0      2.004 K
+Updater.exe                   4020 Services                   0      5.028 K
+svchost.exe                   4088 Services                   0     14.528 K
+svchost.exe                   3500 Services                   0      2.516 K
+svchost.exe                   4212 Services                   0      2.124 K
+svchost.exe                   4268 Services                   0      1.104 K
+nvcontainer.exe               4308 Services                   0     17.880 K
+MsMpEng.exe                   4316 Services                   0    485.172 K
+dasHost.exe                   4324 Services                   0      2.440 K
+IntelCpHeciSvc.exe            4512 Services                   0      1.712 K
+svchost.exe                   4796 Services                   0      3.168 K
+xTendUtilityService.exe       4820 Services                   0      2.592 K
+xTendSoftAPService.exe        4828 Services                   0      2.600 K
+svchost.exe                   4852 Services                   0      3.920 K
+svchost.exe                   5100 Services                   0      4.652 K
+WmiPrvSE.exe                  5516 Services                   0     12.012 K
+unsecapp.exe                  5828 Services                   0      2.688 K
+svchost.exe                   6356 Services                   0      5.288 K
+WmiPrvSE.exe                  6472 Services                   0      2.880 K
+xTendUtility.exe              6712 Services                   0      1.496 K
+xTendSoftAP.exe               6720 Services                   0      1.580 K
+conhost.exe                   6728 Services                   0      1.692 K
+conhost.exe                   6736 Services                   0      1.696 K
+dllhost.exe                   3736 Services                   0      4.732 K
+NisSrv.exe                    3616 Services                   0      6.256 K
+svchost.exe                   2116 Services                   0      1.404 K
+svchost.exe                   2760 Services                   0      3.216 K
+svchost.exe                   4372 Services                   0     12.892 K
+svchost.exe                   4752 Services                   0      1.276 K
+PresentationFontCache.exe     4408 Services                   0      2.888 K
+svchost.exe                   8260 Services                   0     16.556 K
+svchost.exe                   8268 Services                   0      1.664 K
+svchost.exe                   8780 Services                   0      8.264 K
+svchost.exe                   9172 Services                   0      6.228 K
+svchost.exe                   9836 Services                   0     13.748 K
+svchost.exe                   9500 Services                   0      6.392 K
+SecurityHealthService.exe     8508 Services                   0      8.948 K
+svchost.exe                  11552 Services                   0      1.008 K
+MSIService.exe               12916 Services                   0      3.876 K
+FABS.exe                     11660 Services                   0      2.820 K
+IAStorDataMgrSvc.exe         13212 Services                   0     13.336 K
+jhi_service.exe               6520 Services                   0      1.300 K
+GoogleCrashHandler.exe       10976 Services                   0        328 K
+LMS.exe                       8516 Services                   0      2.712 K
+GoogleCrashHandler64.exe     12828 Services                   0        492 K
+svchost.exe                  12836 Services                   0      4.452 K
+svchost.exe                  14284 Services                   0      5.424 K
+svchost.exe                  10908 Services                   0      9.080 K
+SgrmBroker.exe               16040 Services                   0      4.220 K
+svchost.exe                  15704 Services                   0      4.612 K
+csrss.exe                    15436 Console                    2      3.372 K
+winlogon.exe                 13624 Console                    2      4.484 K
+fontdrvhost.exe              11096 Console                    2      3.992 K
+dwm.exe                      15668 Console                    2    102.944 K
+NVDisplay.Container.exe      11848 Console                    2     20.396 K
+ctfmon.exe                   15708 Console                    2     10.516 K
+nvcontainer.exe               9756 Console                    2      7.968 K
+SynTPEnh.exe                 16156 Console                    2     10.508 K
+nvcontainer.exe              13768 Console                    2     47.140 K
+sihost.exe                   14708 Console                    2     22.184 K
+svchost.exe                  15048 Console                    2     21.904 K
+svchost.exe                   9572 Console                    2     39.028 K
+igfxEM.exe                   11952 Console                    2     21.372 K
+taskhostw.exe                13104 Console                    2     12.872 K
+SynTPHelper.exe              16268 Console                    2      1.380 K
+explorer.exe                  7472 Console                    2    144.860 K
+svchost.exe                  14340 Console                    2     15.228 K
+Dragon Center.exe            12192 Console                    2     35.768 K
+StartMenuExperienceHost.e     8996 Console                    2     85.688 K
+RuntimeBroker.exe            14084 Console                    2     21.644 K
+LockApp.exe                   8752 Console                    2     19.804 K
+RuntimeBroker.exe            13932 Console                    2     47.232 K
+RuntimeBroker.exe             9580 Console                    2     18.736 K
+dllhost.exe                   8456 Console                    2     15.456 K
+SkypeBackgroundHost.exe      12488 Console                    2        608 K
+SettingSyncHost.exe          11496 Console                    2      4.808 K
+SecurityHealthSystray.exe    13804 Console                    2      2.796 K
+RtkNGUI64.exe                14656 Console                    2     16.484 K
+MsiTrueColor.exe             10900 Console                    2     11.980 K
+SCM.exe                       1424 Console                    2     45.004 K
+OneDrive.exe                  9912 Console                    2     37.808 K
+MsiTrueColorHelper.exe       12072 Console                    2      1.292 K
+unsecapp.exe                  9852 Console                    2      3.032 K
+IDMan.exe                     6136 Console                    2     20.156 K
+Send Anywhere.exe             9360 Console                    2     60.092 K
+Creative Cloud.exe            9036 Console                    2     56.788 K
+CancelAutoPlay.exe            4724 Console                    2      1.340 K
+jusched.exe                  10024 Console                    2      7.912 K
+WSHelper.exe                 15040 Console                    2      7.200 K
+svchost.exe                  13860 Console                    2     16.332 K
+IAStorIcon.exe               16336 Console                    2      7.108 K
+AdobeIPCBroker.exe           13448 Console                    2      6.040 K
+speed 4G.exe                  4676 Console                    2      5.508 K
+zLoggingDaemon.exe            9388 Console                    2      5.324 K
+IEMonitor.exe                12020 Console                    2      2.116 K
+Nahimic2UILauncher.exe        6252 Console                    2      2.408 K
+Nahimic2Svc32.exe             7524 Console                    2      9.428 K
+Nahimic2Svc64.exe            14540 Console                    2      3.028 K
+Send Anywhere.exe            16264 Console                    2     36.340 K
+Send Anywhere.exe             7724 Console                    2     35.340 K
+Adobe Desktop Service.exe    12812 Console                    2     82.076 K
+NVIDIA Web Helper.exe         9372 Console                    2     23.284 K
+Adobe CEF Helper.exe         12048 Console                    2     56.788 K
+conhost.exe                  11048 Console                    2      1.024 K
+RuntimeBroker.exe            14376 Console                    2     23.364 K
+CCLibrary.exe                 8352 Console                    2        656 K
+node.exe                      5108 Console                    2     38.392 K
+conhost.exe                   1468 Console                    2      2.016 K
+AdobeNotificationClient.e    16564 Console                    2      2.596 K
+ShellExperienceHost.exe      17132 Console                    2     44.308 K
+RuntimeBroker.exe            16712 Console                    2     23.688 K
+RuntimeBroker.exe            17092 Console                    2     10.076 K
+WindowsInternal.Composabl     2264 Console                    2     33.644 K
+CompPkgSrv.exe               17052 Console                    2      4.932 K
+rundll32.exe                 13520 Console                    2      4.724 K
+Microsoft.Photos.exe         10400 Console                    2      2.976 K
+RuntimeBroker.exe             5476 Console                    2     23.520 K
+nvsphelper64.exe              8804 Console                    2      4.504 K
+NVIDIA Share.exe             16892 Console                    2     30.136 K
+NVIDIA Share.exe              1040 Console                    2     11.840 K
+NVIDIA Share.exe             13796 Console                    2     35.088 K
+OfficeClickToRun.exe          9408 Services                   0     43.636 K
+AppVShNotify.exe             14368 Services                   0      1.444 K
+AppVShNotify.exe             12732 Console                    2      1.792 K
+SearchIndexer.exe             7412 Services                   0     53.976 K
+svchost.exe                   7312 Services                   0      2.296 K
+ApplicationFrameHost.exe      9760 Console                    2     16.816 K
+svchost.exe                  17456 Services                   0     14.564 K
+dllhost.exe                   8044 Console                    2      9.800 K
+YourPhone.exe                17720 Console                    2     18.372 K
+RuntimeBroker.exe            18552 Console                    2     10.188 K
+svchost.exe                  13412 Services                   0      5.916 K
+DataExchangeHost.exe          6368 Console                    2      6.688 K
+chrome.exe                    6500 Console                    2    287.224 K
+chrome.exe                   11644 Console                    2      5.032 K
+chrome.exe                   11888 Console                    2      6.064 K
+chrome.exe                   11784 Console                    2    327.268 K
+chrome.exe                     624 Console                    2     52.040 K
+chrome.exe                    5052 Console                    2     25.400 K
+chrome.exe                   22524 Console                    2     16.152 K
+chrome.exe                   24364 Console                    2     23.436 K
+chrome.exe                    7528 Console                    2     35.696 K
+chrome.exe                   19088 Console                    2     34.668 K
+svchost.exe                   6444 Services                   0      4.364 K
+chrome.exe                   26400 Console                    2     12.012 K
+SteelSeriesEngine3.exe       12648 Console                    2     34.816 K
+SecurityHealthHost.exe       16704 Console                    2      6.416 K
+chrome.exe                    7664 Console                    2     16.136 K
+Taskmgr.exe                   6300 Console                    2     50.168 K
+PING.EXE                     10168 Console                    2      2.228 K
+conhost.exe                  26060 Console                    2      8.084 K
+chrome.exe                   18444 Console                    2     58.768 K
+chrome.exe                   10656 Console                    2     28.372 K
+Video.UI.exe                  9980 Console                    2     26.596 K
+RuntimeBroker.exe            22156 Console                    2      5.684 K
+Discord.exe                  20544 Console                    2     95.984 K
+Discord.exe                  25728 Console                    2     98.188 K
+Discord.exe                  13096 Console                    2     55.840 K
+Discord.exe                  17812 Console                    2    177.948 K
+SearchUI.exe                 17792 Console                    2     92.060 K
+jucheck.exe                  14760 Console                    2      7.888 K
+taskhostw.exe                20892 Console                    2     16.696 K
+svchost.exe                   1304 Console                    2      4.096 K
+AcroRd32.exe                  1212 Console                    2     14.068 K
+AcroRd32.exe                 20196 Console                    2     50.180 K
+GameBar.exe                  15300 Console                    2     53.000 K
+RuntimeBroker.exe            20720 Console                    2     11.720 K
+GameBarFT.exe                24468 Console                    2      9.772 K
+chrome.exe                   33716 Console                    2    198.584 K
+chrome.exe                   25972 Console                    2    226.944 K
+chrome.exe                   37712 Console                    2    115.956 K
+rundll32.exe                 36528 Console                    2     14.240 K
+svchost.exe                  41388 Services                   0     13.052 K
+Spotify.exe                  18352 Console                    2     68.256 K
+Spotify.exe                  40992 Console                    2     20.528 K
+Spotify.exe                  43892 Console                    2     30.456 K
+Spotify.exe                  48684 Console                    2     30.404 K
+Spotify.exe                  48344 Console                    2     49.656 K
+Calculator.exe               28000 Console                    2      4.424 K
+chrome.exe                   42372 Console                    2     88.684 K
+SystemSettings.exe           27612 Console                    2      1.248 K
+chrome.exe                   10032 Console                    2     42.388 K
+chrome.exe                   44156 Console                    2     56.000 K
+WmiPrvSE.exe                  5672 Services                   0     17.372 K
+wlanext.exe                  17204 Services                   0     10.976 K
+svchost.exe                   9292 Services                   0      3.624 K
+conhost.exe                  18816 Services                   0      4.476 K
+audiodg.exe                  11532 Services                   0     87.032 K
+BlackDesert64.exe            30080 Console                    2  1.284.952 K
+xcoronahost.xem              39724 Console                    2     41.600 K
+xxd-0.xem                     9540 Console                    2      5.616 K
+GameBarPresenceWriter.exe    31512 Console                    2     14.808 K
+svchost.exe                  37216 Services                   0     10.796 K
+CoherentUI_Host.exe          35912 Console                    2     63.152 K
+CoherentUI_Host.exe          48772 Console                    2    100.216 K
+SkypeApp.exe                 22128 Console                    2     12.440 K
+RuntimeBroker.exe            24916 Console                    2     19.840 K
+svchost.exe                  44420 Services                   0      5.008 K
+chrome.exe                    7140 Console                    2     53.224 K
+chrome.exe                   13908 Console                    2     42.460 K
+chrome.exe                     892 Console                    2     40.636 K
+chrome.exe                   36548 Console                    2     40.960 K
+chrome.exe                   27096 Console                    2     43.296 K
+chrome.exe                   42300 Console                    2     45.344 K
+chrome.exe                   25080 Console                    2     41.900 K
+notepad.exe                  35408 Console                    2     33.152 K
+cmd.exe                      15752 Console                    2      3.116 K
+conhost.exe                  35368 Console                    2     13.180 K
+chrome.exe                   13064 Console                    2    144.028 K
+chrome.exe                   15744 Console                    2    145.000 K
+powershell.exe               27060 Console                    2     70.464 K
+conhost.exe                  13584 Console                    2     14.628 K
+notepad.exe                  38132 Console                    2     32.300 K
+ChromiumUpdate.exe           20124 Services                   0      1.684 K
+chrome.exe                    4240 Console                    2     47.336 K
+chrome.exe                   37868 Console                    2     78.512 K
+CoherentUI_Host.exe          42776 Console                    2     57.656 K
+CoreSync.exe                 38584 Console                    2     61.380 K
+svchost.exe                  27296 Services                   0      7.560 K
+chrome.exe                   30592 Console                    2     90.620 K
+chrome.exe                   30668 Console                    2    105.772 K
+chrome.exe                   28188 Console                    2     22.224 K
+svchost.exe                  20956 Services                   0     16.432 K
+svchost.exe                  49904 Services                   0      7.076 K
+svchost.exe                  19792 Services                   0      7.320 K
+RuntimeBroker.exe            27056 Console                    2     11.424 K
+smartscreen.exe              39200 Console                    2     23.448 K
+powershell.exe               25844 Console                    2     79.028 K
+backgroundTaskHost.exe       30824 Console                    2     19.396 K
+backgroundTaskHost.exe       43584 Console                    2     14.984 K
+backgroundTaskHost.exe       34588 Console                    2     24.868 K
+svchost.exe                  29056 Services                   0      8.972 K
+conhost.exe                  33732 Console                    2     16.148 K
+RuntimeBroker.exe            49380 Console                    2     20.240 K
+sppsvc.exe                   23088 Services                   0     16.708 K
+RuntimeBroker.exe            33832 Console                    2      5.760 K
+SppExtComObj.Exe              7740 Services                   0      9.000 K
+tasklist.exe                 43688 Console                    2      8.604 K
+
+
+
+   
